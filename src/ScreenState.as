@@ -14,6 +14,9 @@ package
 		{
 			super.create();
 			FlxG.flash(0xff000000, 0.5);
+			
+			var _newButton:NewButton = new NewButton(12, 12, 80, 80, "Test");
+			add(_newButton);
 		}
 		
 		override public function update():void
